@@ -1,0 +1,468 @@
+mkdir /usr/lib/modules/5.15.0-handsomekernel+
+mkdir /usr/lib/modules/5.15.0-handsomekernel+/kernel
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/modules.alias /usr/lib/modules/5.15.0-handsomekernel+/modules.alias
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/modules.alias.bin /usr/lib/modules/5.15.0-handsomekernel+/modules.alias.bin
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/modules.builtin /usr/lib/modules/5.15.0-handsomekernel+/modules.builtin
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/modules.builtin.alias.bin /usr/lib/modules/5.15.0-handsomekernel+/modules.builtin.alias.bin
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/modules.builtin.bin /usr/lib/modules/5.15.0-handsomekernel+/modules.builtin.bin
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/modules.builtin.modinfo /usr/lib/modules/5.15.0-handsomekernel+/modules.builtin.modinfo
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/modules.dep /usr/lib/modules/5.15.0-handsomekernel+/modules.dep
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/modules.dep.bin /usr/lib/modules/5.15.0-handsomekernel+/modules.dep.bin
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/modules.devname /usr/lib/modules/5.15.0-handsomekernel+/modules.devname
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/modules.order /usr/lib/modules/5.15.0-handsomekernel+/modules.order
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/modules.softdep /usr/lib/modules/5.15.0-handsomekernel+/modules.softdep
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/modules.symbols /usr/lib/modules/5.15.0-handsomekernel+/modules.symbols
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/modules.symbols.bin /usr/lib/modules/5.15.0-handsomekernel+/modules.symbols.bin
+mkdir /usr/lib/modules/5.15.0-handsomekernel+/kernel/arch
+mkdir /usr/lib/modules/5.15.0-handsomekernel+/kernel/crypto
+mkdir /usr/lib/modules/5.15.0-handsomekernel+/kernel/drivers
+mkdir /usr/lib/modules/5.15.0-handsomekernel+/kernel/fs
+mkdir /usr/lib/modules/5.15.0-handsomekernel+/kernel/lib
+mkdir /usr/lib/modules/5.15.0-handsomekernel+/kernel/net
+mkdir /usr/lib/modules/5.15.0-handsomekernel+/kernel/sound
+mkdir /usr/lib/modules/5.15.0-handsomekernel+/kernel/arch/arm64
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/crypto/af_alg.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/crypto/af_alg.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/crypto/algif_aead.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/crypto/algif_aead.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/crypto/algif_hash.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/crypto/algif_hash.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/crypto/algif_rng.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/crypto/algif_rng.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/crypto/algif_skcipher.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/crypto/algif_skcipher.ko
+mkdir /usr/lib/modules/5.15.0-handsomekernel+/kernel/crypto/asymmetric_keys
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/crypto/ccm.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/crypto/ccm.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/crypto/cmac.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/crypto/cmac.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/crypto/crc32_generic.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/crypto/crc32_generic.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/crypto/des_generic.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/crypto/des_generic.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/crypto/ecc.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/crypto/ecc.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/crypto/ecdh_generic.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/crypto/ecdh_generic.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/crypto/essiv.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/crypto/essiv.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/crypto/nhpoly1305.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/crypto/nhpoly1305.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/crypto/sha3_generic.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/crypto/sha3_generic.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/crypto/sm3_generic.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/crypto/sm3_generic.ko
+mkdir /usr/lib/modules/5.15.0-handsomekernel+/kernel/drivers/block
+mkdir /usr/lib/modules/5.15.0-handsomekernel+/kernel/drivers/bluetooth
+mkdir /usr/lib/modules/5.15.0-handsomekernel+/kernel/drivers/char
+mkdir /usr/lib/modules/5.15.0-handsomekernel+/kernel/drivers/cpufreq
+mkdir /usr/lib/modules/5.15.0-handsomekernel+/kernel/drivers/gpu
+mkdir /usr/lib/modules/5.15.0-handsomekernel+/kernel/drivers/hid
+mkdir /usr/lib/modules/5.15.0-handsomekernel+/kernel/drivers/i2c
+mkdir /usr/lib/modules/5.15.0-handsomekernel+/kernel/drivers/input
+mkdir /usr/lib/modules/5.15.0-handsomekernel+/kernel/drivers/leds
+mkdir /usr/lib/modules/5.15.0-handsomekernel+/kernel/drivers/md
+mkdir /usr/lib/modules/5.15.0-handsomekernel+/kernel/drivers/media
+mkdir /usr/lib/modules/5.15.0-handsomekernel+/kernel/drivers/mfd
+mkdir /usr/lib/modules/5.15.0-handsomekernel+/kernel/drivers/misc
+mkdir /usr/lib/modules/5.15.0-handsomekernel+/kernel/drivers/net
+mkdir /usr/lib/modules/5.15.0-handsomekernel+/kernel/drivers/nfc
+mkdir /usr/lib/modules/5.15.0-handsomekernel+/kernel/drivers/power
+mkdir /usr/lib/modules/5.15.0-handsomekernel+/kernel/drivers/regulator
+mkdir /usr/lib/modules/5.15.0-handsomekernel+/kernel/drivers/remoteproc
+mkdir /usr/lib/modules/5.15.0-handsomekernel+/kernel/drivers/soc
+mkdir /usr/lib/modules/5.15.0-handsomekernel+/kernel/drivers/spi
+mkdir /usr/lib/modules/5.15.0-handsomekernel+/kernel/drivers/staging
+mkdir /usr/lib/modules/5.15.0-handsomekernel+/kernel/drivers/usb
+mkdir /usr/lib/modules/5.15.0-handsomekernel+/kernel/fs/exfat
+mkdir /usr/lib/modules/5.15.0-handsomekernel+/kernel/fs/f2fs
+mkdir /usr/lib/modules/5.15.0-handsomekernel+/kernel/fs/fuse
+mkdir /usr/lib/modules/5.15.0-handsomekernel+/kernel/fs/ntfs
+mkdir /usr/lib/modules/5.15.0-handsomekernel+/kernel/fs/ntfs3
+mkdir /usr/lib/modules/5.15.0-handsomekernel+/kernel/fs/overlayfs
+mkdir /usr/lib/modules/5.15.0-handsomekernel+/kernel/fs/squashfs
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/lib/crc-ccitt.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/lib/crc-ccitt.ko
+mkdir /usr/lib/modules/5.15.0-handsomekernel+/kernel/lib/crypto
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/lib/libcrc32c.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/lib/libcrc32c.ko
+mkdir /usr/lib/modules/5.15.0-handsomekernel+/kernel/lib/lz4
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/lib/ts_bm.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/lib/ts_bm.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/lib/ts_fsm.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/lib/ts_fsm.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/lib/ts_kmp.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/lib/ts_kmp.ko
+mkdir /usr/lib/modules/5.15.0-handsomekernel+/kernel/net/802
+mkdir /usr/lib/modules/5.15.0-handsomekernel+/kernel/net/8021q
+mkdir /usr/lib/modules/5.15.0-handsomekernel+/kernel/net/bluetooth
+mkdir /usr/lib/modules/5.15.0-handsomekernel+/kernel/net/bridge
+mkdir /usr/lib/modules/5.15.0-handsomekernel+/kernel/net/ipv4
+mkdir /usr/lib/modules/5.15.0-handsomekernel+/kernel/net/ipv6
+mkdir /usr/lib/modules/5.15.0-handsomekernel+/kernel/net/llc
+mkdir /usr/lib/modules/5.15.0-handsomekernel+/kernel/net/mac80211
+mkdir /usr/lib/modules/5.15.0-handsomekernel+/kernel/net/netfilter
+mkdir /usr/lib/modules/5.15.0-handsomekernel+/kernel/net/nfc
+mkdir /usr/lib/modules/5.15.0-handsomekernel+/kernel/net/qrtr
+mkdir /usr/lib/modules/5.15.0-handsomekernel+/kernel/net/sched
+mkdir /usr/lib/modules/5.15.0-handsomekernel+/kernel/net/wireless
+mkdir /usr/lib/modules/5.15.0-handsomekernel+/kernel/sound/core
+mkdir /usr/lib/modules/5.15.0-handsomekernel+/kernel/sound/soc
+mkdir /usr/lib/modules/5.15.0-handsomekernel+/kernel/sound/usb
+mkdir /usr/lib/modules/5.15.0-handsomekernel+/kernel/arch/arm64/crypto
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/crypto/asymmetric_keys/pkcs8_key_parser.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/crypto/asymmetric_keys/pkcs8_key_parser.ko
+mkdir /usr/lib/modules/5.15.0-handsomekernel+/kernel/drivers/block/zram
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/drivers/bluetooth/btbcm.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/drivers/bluetooth/btbcm.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/drivers/bluetooth/btintel.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/drivers/bluetooth/btintel.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/drivers/bluetooth/btqca.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/drivers/bluetooth/btqca.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/drivers/bluetooth/btqcomsmd.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/drivers/bluetooth/btqcomsmd.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/drivers/bluetooth/btrtl.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/drivers/bluetooth/btrtl.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/drivers/bluetooth/btusb.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/drivers/bluetooth/btusb.ko
+mkdir /usr/lib/modules/5.15.0-handsomekernel+/kernel/drivers/char/hw_random
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/drivers/cpufreq/cpufreq_conservative.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/drivers/cpufreq/cpufreq_conservative.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/drivers/cpufreq/cpufreq_ondemand.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/drivers/cpufreq/cpufreq_ondemand.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/drivers/cpufreq/cpufreq_userspace.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/drivers/cpufreq/cpufreq_userspace.ko
+mkdir /usr/lib/modules/5.15.0-handsomekernel+/kernel/drivers/gpu/drm
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/drivers/hid/uhid.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/drivers/hid/uhid.ko
+mkdir /usr/lib/modules/5.15.0-handsomekernel+/kernel/drivers/i2c/busses
+mkdir /usr/lib/modules/5.15.0-handsomekernel+/kernel/drivers/input/keyboard
+mkdir /usr/lib/modules/5.15.0-handsomekernel+/kernel/drivers/input/touchscreen
+mkdir /usr/lib/modules/5.15.0-handsomekernel+/kernel/drivers/leds/flash
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/drivers/leds/led-class-flash.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/drivers/leds/led-class-flash.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/drivers/leds/leds-aw2013.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/drivers/leds/leds-aw2013.ko
+mkdir /usr/lib/modules/5.15.0-handsomekernel+/kernel/drivers/leds/trigger
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/drivers/md/dm-bio-prison.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/drivers/md/dm-bio-prison.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/drivers/md/dm-bufio.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/drivers/md/dm-bufio.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/drivers/md/dm-crypt.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/drivers/md/dm-crypt.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/drivers/md/dm-thin-pool.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/drivers/md/dm-thin-pool.ko
+mkdir /usr/lib/modules/5.15.0-handsomekernel+/kernel/drivers/md/persistent-data
+mkdir /usr/lib/modules/5.15.0-handsomekernel+/kernel/drivers/media/common
+mkdir /usr/lib/modules/5.15.0-handsomekernel+/kernel/drivers/media/mc
+mkdir /usr/lib/modules/5.15.0-handsomekernel+/kernel/drivers/media/platform
+mkdir /usr/lib/modules/5.15.0-handsomekernel+/kernel/drivers/media/usb
+mkdir /usr/lib/modules/5.15.0-handsomekernel+/kernel/drivers/media/v4l2-core
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/drivers/mfd/mfd-core.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/drivers/mfd/mfd-core.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/drivers/mfd/rt5033.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/drivers/mfd/rt5033.ko
+mkdir /usr/lib/modules/5.15.0-handsomekernel+/kernel/drivers/misc/eeprom
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/drivers/misc/fastrpc.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/drivers/misc/fastrpc.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/drivers/net/dummy.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/drivers/net/dummy.ko
+mkdir /usr/lib/modules/5.15.0-handsomekernel+/kernel/drivers/net/ethernet
+mkdir /usr/lib/modules/5.15.0-handsomekernel+/kernel/drivers/net/ipvlan
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/drivers/net/macvlan.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/drivers/net/macvlan.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/drivers/net/macvtap.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/drivers/net/macvtap.ko
+mkdir /usr/lib/modules/5.15.0-handsomekernel+/kernel/drivers/net/ppp
+mkdir /usr/lib/modules/5.15.0-handsomekernel+/kernel/drivers/net/slip
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/drivers/net/tap.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/drivers/net/tap.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/drivers/net/tun.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/drivers/net/tun.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/drivers/net/veth.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/drivers/net/veth.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/drivers/net/vxlan.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/drivers/net/vxlan.ko
+mkdir /usr/lib/modules/5.15.0-handsomekernel+/kernel/drivers/net/wireguard
+mkdir /usr/lib/modules/5.15.0-handsomekernel+/kernel/drivers/net/wireless
+mkdir /usr/lib/modules/5.15.0-handsomekernel+/kernel/drivers/net/wwan
+mkdir /usr/lib/modules/5.15.0-handsomekernel+/kernel/drivers/nfc/nxp-nci
+mkdir /usr/lib/modules/5.15.0-handsomekernel+/kernel/drivers/nfc/s3fwrn5
+mkdir /usr/lib/modules/5.15.0-handsomekernel+/kernel/drivers/power/supply
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/drivers/regulator/rt5033-regulator.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/drivers/regulator/rt5033-regulator.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/drivers/remoteproc/qcom_common.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/drivers/remoteproc/qcom_common.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/drivers/remoteproc/qcom_pil_info.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/drivers/remoteproc/qcom_pil_info.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/drivers/remoteproc/qcom_q6v5.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/drivers/remoteproc/qcom_q6v5.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/drivers/remoteproc/qcom_q6v5_mss.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/drivers/remoteproc/qcom_q6v5_mss.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/drivers/remoteproc/qcom_wcnss_pil.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/drivers/remoteproc/qcom_wcnss_pil.ko
+mkdir /usr/lib/modules/5.15.0-handsomekernel+/kernel/drivers/soc/qcom
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/drivers/spi/spi-bitbang.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/drivers/spi/spi-bitbang.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/drivers/spi/spidev.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/drivers/spi/spidev.ko
+mkdir /usr/lib/modules/5.15.0-handsomekernel+/kernel/drivers/staging/r8188eu
+mkdir /usr/lib/modules/5.15.0-handsomekernel+/kernel/drivers/staging/rtl8712
+mkdir /usr/lib/modules/5.15.0-handsomekernel+/kernel/drivers/usb/class
+mkdir /usr/lib/modules/5.15.0-handsomekernel+/kernel/drivers/usb/gadget
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/fs/exfat/exfat.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/fs/exfat/exfat.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/fs/f2fs/f2fs.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/fs/f2fs/f2fs.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/fs/fuse/cuse.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/fs/fuse/cuse.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/fs/fuse/fuse.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/fs/fuse/fuse.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/fs/ntfs/ntfs.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/fs/ntfs/ntfs.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/fs/ntfs3/ntfs3.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/fs/ntfs3/ntfs3.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/fs/overlayfs/overlay.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/fs/overlayfs/overlay.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/fs/squashfs/squashfs.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/fs/squashfs/squashfs.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/lib/crypto/libarc4.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/lib/crypto/libarc4.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/lib/crypto/libblake2s-generic.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/lib/crypto/libblake2s-generic.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/lib/crypto/libblake2s.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/lib/crypto/libblake2s.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/lib/crypto/libchacha.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/lib/crypto/libchacha.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/lib/crypto/libchacha20poly1305.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/lib/crypto/libchacha20poly1305.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/lib/crypto/libcurve25519-generic.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/lib/crypto/libcurve25519-generic.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/lib/crypto/libcurve25519.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/lib/crypto/libcurve25519.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/lib/crypto/libdes.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/lib/crypto/libdes.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/lib/crypto/libpoly1305.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/lib/crypto/libpoly1305.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/lib/crypto/libsm4.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/lib/crypto/libsm4.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/lib/lz4/lz4hc_compress.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/lib/lz4/lz4hc_compress.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/net/802/garp.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/net/802/garp.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/net/802/mrp.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/net/802/mrp.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/net/802/p8022.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/net/802/p8022.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/net/802/psnap.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/net/802/psnap.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/net/802/stp.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/net/802/stp.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/net/8021q/8021q.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/net/8021q/8021q.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/net/bluetooth/bluetooth.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/net/bluetooth/bluetooth.ko
+mkdir /usr/lib/modules/5.15.0-handsomekernel+/kernel/net/bluetooth/hidp
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/net/bridge/br_netfilter.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/net/bridge/br_netfilter.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/net/bridge/bridge.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/net/bridge/bridge.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/net/ipv4/ip_tunnel.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/net/ipv4/ip_tunnel.ko
+mkdir /usr/lib/modules/5.15.0-handsomekernel+/kernel/net/ipv4/netfilter
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/net/ipv4/udp_tunnel.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/net/ipv4/udp_tunnel.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/net/ipv6/ah6.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/net/ipv6/ah6.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/net/ipv6/esp6.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/net/ipv6/esp6.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/net/ipv6/ip6_udp_tunnel.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/net/ipv6/ip6_udp_tunnel.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/net/ipv6/ipcomp6.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/net/ipv6/ipcomp6.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/net/ipv6/ipv6.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/net/ipv6/ipv6.ko
+mkdir /usr/lib/modules/5.15.0-handsomekernel+/kernel/net/ipv6/netfilter
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/net/ipv6/sit.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/net/ipv6/sit.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/net/ipv6/tunnel6.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/net/ipv6/tunnel6.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/net/ipv6/xfrm6_tunnel.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/net/ipv6/xfrm6_tunnel.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/net/llc/llc.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/net/llc/llc.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/net/mac80211/mac80211.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/net/mac80211/mac80211.ko
+mkdir /usr/lib/modules/5.15.0-handsomekernel+/kernel/net/netfilter/ipvs
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/net/netfilter/nf_conncount.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/net/netfilter/nf_conncount.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/net/netfilter/nf_conntrack.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/net/netfilter/nf_conntrack.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/net/netfilter/nf_log_syslog.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/net/netfilter/nf_log_syslog.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/net/netfilter/nf_nat.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/net/netfilter/nf_nat.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/net/netfilter/nf_tables.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/net/netfilter/nf_tables.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/net/netfilter/nfnetlink_osf.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/net/netfilter/nfnetlink_osf.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/net/netfilter/nft_chain_nat.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/net/netfilter/nft_chain_nat.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/net/netfilter/nft_counter.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/net/netfilter/nft_counter.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/net/netfilter/nft_ct.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/net/netfilter/nft_ct.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/net/netfilter/nft_limit.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/net/netfilter/nft_limit.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/net/netfilter/nft_log.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/net/netfilter/nft_log.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/net/netfilter/nft_masq.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/net/netfilter/nft_masq.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/net/netfilter/nft_nat.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/net/netfilter/nft_nat.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/net/netfilter/nft_reject.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/net/netfilter/nft_reject.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/net/netfilter/nft_reject_inet.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/net/netfilter/nft_reject_inet.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/net/netfilter/x_tables.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/net/netfilter/x_tables.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/net/netfilter/xt_AUDIT.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/net/netfilter/xt_AUDIT.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/net/netfilter/xt_CHECKSUM.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/net/netfilter/xt_CHECKSUM.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/net/netfilter/xt_CLASSIFY.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/net/netfilter/xt_CLASSIFY.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/net/netfilter/xt_CT.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/net/netfilter/xt_CT.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/net/netfilter/xt_DSCP.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/net/netfilter/xt_DSCP.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/net/netfilter/xt_HL.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/net/netfilter/xt_HL.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/net/netfilter/xt_IDLETIMER.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/net/netfilter/xt_IDLETIMER.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/net/netfilter/xt_LED.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/net/netfilter/xt_LED.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/net/netfilter/xt_LOG.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/net/netfilter/xt_LOG.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/net/netfilter/xt_MASQUERADE.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/net/netfilter/xt_MASQUERADE.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/net/netfilter/xt_NFLOG.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/net/netfilter/xt_NFLOG.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/net/netfilter/xt_NFQUEUE.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/net/netfilter/xt_NFQUEUE.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/net/netfilter/xt_RATEEST.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/net/netfilter/xt_RATEEST.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/net/netfilter/xt_REDIRECT.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/net/netfilter/xt_REDIRECT.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/net/netfilter/xt_TCPMSS.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/net/netfilter/xt_TCPMSS.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/net/netfilter/xt_TCPOPTSTRIP.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/net/netfilter/xt_TCPOPTSTRIP.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/net/netfilter/xt_TEE.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/net/netfilter/xt_TEE.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/net/netfilter/xt_TPROXY.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/net/netfilter/xt_TPROXY.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/net/netfilter/xt_TRACE.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/net/netfilter/xt_TRACE.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/net/netfilter/xt_addrtype.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/net/netfilter/xt_addrtype.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/net/netfilter/xt_cluster.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/net/netfilter/xt_cluster.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/net/netfilter/xt_comment.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/net/netfilter/xt_comment.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/net/netfilter/xt_connbytes.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/net/netfilter/xt_connbytes.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/net/netfilter/xt_connlimit.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/net/netfilter/xt_connlimit.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/net/netfilter/xt_connmark.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/net/netfilter/xt_connmark.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/net/netfilter/xt_conntrack.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/net/netfilter/xt_conntrack.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/net/netfilter/xt_cpu.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/net/netfilter/xt_cpu.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/net/netfilter/xt_dccp.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/net/netfilter/xt_dccp.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/net/netfilter/xt_devgroup.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/net/netfilter/xt_devgroup.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/net/netfilter/xt_dscp.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/net/netfilter/xt_dscp.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/net/netfilter/xt_ecn.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/net/netfilter/xt_ecn.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/net/netfilter/xt_esp.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/net/netfilter/xt_esp.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/net/netfilter/xt_hashlimit.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/net/netfilter/xt_hashlimit.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/net/netfilter/xt_helper.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/net/netfilter/xt_helper.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/net/netfilter/xt_hl.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/net/netfilter/xt_hl.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/net/netfilter/xt_iprange.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/net/netfilter/xt_iprange.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/net/netfilter/xt_ipvs.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/net/netfilter/xt_ipvs.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/net/netfilter/xt_length.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/net/netfilter/xt_length.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/net/netfilter/xt_limit.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/net/netfilter/xt_limit.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/net/netfilter/xt_mac.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/net/netfilter/xt_mac.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/net/netfilter/xt_mark.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/net/netfilter/xt_mark.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/net/netfilter/xt_multiport.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/net/netfilter/xt_multiport.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/net/netfilter/xt_nat.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/net/netfilter/xt_nat.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/net/netfilter/xt_nfacct.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/net/netfilter/xt_nfacct.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/net/netfilter/xt_osf.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/net/netfilter/xt_osf.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/net/netfilter/xt_owner.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/net/netfilter/xt_owner.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/net/netfilter/xt_pkttype.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/net/netfilter/xt_pkttype.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/net/netfilter/xt_policy.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/net/netfilter/xt_policy.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/net/netfilter/xt_quota.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/net/netfilter/xt_quota.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/net/netfilter/xt_rateest.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/net/netfilter/xt_rateest.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/net/netfilter/xt_realm.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/net/netfilter/xt_realm.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/net/netfilter/xt_recent.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/net/netfilter/xt_recent.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/net/netfilter/xt_sctp.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/net/netfilter/xt_sctp.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/net/netfilter/xt_socket.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/net/netfilter/xt_socket.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/net/netfilter/xt_state.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/net/netfilter/xt_state.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/net/netfilter/xt_statistic.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/net/netfilter/xt_statistic.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/net/netfilter/xt_string.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/net/netfilter/xt_string.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/net/netfilter/xt_tcpmss.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/net/netfilter/xt_tcpmss.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/net/netfilter/xt_tcpudp.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/net/netfilter/xt_tcpudp.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/net/netfilter/xt_time.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/net/netfilter/xt_time.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/net/netfilter/xt_u32.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/net/netfilter/xt_u32.ko
+mkdir /usr/lib/modules/5.15.0-handsomekernel+/kernel/net/nfc/nci
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/net/nfc/nfc.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/net/nfc/nfc.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/net/qrtr/qrtr-tun.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/net/qrtr/qrtr-tun.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/net/sched/cls_cgroup.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/net/sched/cls_cgroup.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/net/wireless/cfg80211.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/net/wireless/cfg80211.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/net/wireless/lib80211.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/net/wireless/lib80211.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/net/wireless/lib80211_crypt_ccmp.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/net/wireless/lib80211_crypt_ccmp.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/net/wireless/lib80211_crypt_wep.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/net/wireless/lib80211_crypt_wep.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/sound/core/snd-hwdep.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/sound/core/snd-hwdep.ko
+mkdir /usr/lib/modules/5.15.0-handsomekernel+/kernel/sound/soc/codecs
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/sound/usb/snd-usb-audio.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/sound/usb/snd-usb-audio.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/sound/usb/snd-usbmidi-lib.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/sound/usb/snd-usbmidi-lib.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/arch/arm64/crypto/aes-neon-blk.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/arch/arm64/crypto/aes-neon-blk.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/arch/arm64/crypto/aes-neon-bs.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/arch/arm64/crypto/aes-neon-bs.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/arch/arm64/crypto/chacha-neon.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/arch/arm64/crypto/chacha-neon.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/arch/arm64/crypto/nhpoly1305-neon.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/arch/arm64/crypto/nhpoly1305-neon.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/arch/arm64/crypto/poly1305-neon.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/arch/arm64/crypto/poly1305-neon.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/arch/arm64/crypto/sha3-ce.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/arch/arm64/crypto/sha3-ce.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/arch/arm64/crypto/sha512-arm64.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/arch/arm64/crypto/sha512-arm64.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/arch/arm64/crypto/sha512-ce.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/arch/arm64/crypto/sha512-ce.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/arch/arm64/crypto/sm3-ce.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/arch/arm64/crypto/sm3-ce.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/arch/arm64/crypto/sm4-ce.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/arch/arm64/crypto/sm4-ce.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/drivers/block/zram/zram.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/drivers/block/zram/zram.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/drivers/char/hw_random/arm_smccc_trng.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/drivers/char/hw_random/arm_smccc_trng.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/drivers/char/hw_random/rng-core.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/drivers/char/hw_random/rng-core.ko
+mkdir /usr/lib/modules/5.15.0-handsomekernel+/kernel/drivers/gpu/drm/gud
+mkdir /usr/lib/modules/5.15.0-handsomekernel+/kernel/drivers/gpu/drm/vkms
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/drivers/i2c/busses/i2c-qcom-cci.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/drivers/i2c/busses/i2c-qcom-cci.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/drivers/input/keyboard/tm2-touchkey.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/drivers/input/keyboard/tm2-touchkey.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/drivers/input/touchscreen/atmel_mxt_ts.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/drivers/input/touchscreen/atmel_mxt_ts.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/drivers/input/touchscreen/edt-ft5x06.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/drivers/input/touchscreen/edt-ft5x06.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/drivers/input/touchscreen/himax_852xES.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/drivers/input/touchscreen/himax_852xES.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/drivers/input/touchscreen/melfas_mip4.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/drivers/input/touchscreen/melfas_mip4.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/drivers/input/touchscreen/mms114.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/drivers/input/touchscreen/mms114.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/drivers/input/touchscreen/msg2638.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/drivers/input/touchscreen/msg2638.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/drivers/input/touchscreen/zinitix.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/drivers/input/touchscreen/zinitix.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/drivers/leds/flash/leds-sgm3140.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/drivers/leds/flash/leds-sgm3140.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/drivers/leds/trigger/ledtrig-activity.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/drivers/leds/trigger/ledtrig-activity.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/drivers/leds/trigger/ledtrig-audio.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/drivers/leds/trigger/ledtrig-audio.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/drivers/leds/trigger/ledtrig-backlight.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/drivers/leds/trigger/ledtrig-backlight.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/drivers/leds/trigger/ledtrig-camera.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/drivers/leds/trigger/ledtrig-camera.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/drivers/leds/trigger/ledtrig-gpio.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/drivers/leds/trigger/ledtrig-gpio.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/drivers/leds/trigger/ledtrig-netdev.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/drivers/leds/trigger/ledtrig-netdev.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/drivers/leds/trigger/ledtrig-oneshot.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/drivers/leds/trigger/ledtrig-oneshot.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/drivers/leds/trigger/ledtrig-pattern.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/drivers/leds/trigger/ledtrig-pattern.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/drivers/leds/trigger/ledtrig-transient.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/drivers/leds/trigger/ledtrig-transient.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/drivers/leds/trigger/ledtrig-tty.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/drivers/leds/trigger/ledtrig-tty.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/drivers/md/persistent-data/dm-persistent-data.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/drivers/md/persistent-data/dm-persistent-data.ko
+mkdir /usr/lib/modules/5.15.0-handsomekernel+/kernel/drivers/media/common/videobuf2
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/drivers/media/mc/mc.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/drivers/media/mc/mc.ko
+mkdir /usr/lib/modules/5.15.0-handsomekernel+/kernel/drivers/media/platform/qcom
+mkdir /usr/lib/modules/5.15.0-handsomekernel+/kernel/drivers/media/usb/uvc
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/drivers/media/v4l2-core/v4l2-async.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/drivers/media/v4l2-core/v4l2-async.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/drivers/media/v4l2-core/v4l2-dv-timings.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/drivers/media/v4l2-core/v4l2-dv-timings.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/drivers/media/v4l2-core/v4l2-flash-led-class.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/drivers/media/v4l2-core/v4l2-flash-led-class.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/drivers/media/v4l2-core/v4l2-fwnode.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/drivers/media/v4l2-core/v4l2-fwnode.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/drivers/media/v4l2-core/v4l2-mem2mem.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/drivers/media/v4l2-core/v4l2-mem2mem.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/drivers/media/v4l2-core/videodev.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/drivers/media/v4l2-core/videodev.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/drivers/misc/eeprom/eeprom_93cx6.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/drivers/misc/eeprom/eeprom_93cx6.ko
+mkdir /usr/lib/modules/5.15.0-handsomekernel+/kernel/drivers/net/ethernet/qualcomm
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/drivers/net/ipvlan/ipvlan.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/drivers/net/ipvlan/ipvlan.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/drivers/net/ppp/bsd_comp.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/drivers/net/ppp/bsd_comp.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/drivers/net/ppp/ppp_async.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/drivers/net/ppp/ppp_async.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/drivers/net/ppp/ppp_deflate.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/drivers/net/ppp/ppp_deflate.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/drivers/net/ppp/ppp_generic.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/drivers/net/ppp/ppp_generic.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/drivers/net/ppp/ppp_mppe.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/drivers/net/ppp/ppp_mppe.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/drivers/net/ppp/ppp_synctty.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/drivers/net/ppp/ppp_synctty.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/drivers/net/ppp/pppoe.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/drivers/net/ppp/pppoe.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/drivers/net/ppp/pppox.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/drivers/net/ppp/pppox.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/drivers/net/slip/slhc.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/drivers/net/slip/slhc.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/drivers/net/wireguard/wireguard.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/drivers/net/wireguard/wireguard.ko
+mkdir /usr/lib/modules/5.15.0-handsomekernel+/kernel/drivers/net/wireless/ath
+mkdir /usr/lib/modules/5.15.0-handsomekernel+/kernel/drivers/net/wireless/mediatek
+mkdir /usr/lib/modules/5.15.0-handsomekernel+/kernel/drivers/net/wireless/realtek
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/drivers/net/wwan/qcom_bam_dmux.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/drivers/net/wwan/qcom_bam_dmux.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/drivers/net/wwan/rpmsg_wwan_ctrl.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/drivers/net/wwan/rpmsg_wwan_ctrl.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/drivers/nfc/nxp-nci/nxp-nci.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/drivers/nfc/nxp-nci/nxp-nci.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/drivers/nfc/nxp-nci/nxp-nci_i2c.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/drivers/nfc/nxp-nci/nxp-nci_i2c.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/drivers/nfc/s3fwrn5/s3fwrn5.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/drivers/nfc/s3fwrn5/s3fwrn5.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/drivers/nfc/s3fwrn5/s3fwrn5_i2c.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/drivers/nfc/s3fwrn5/s3fwrn5_i2c.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/drivers/power/supply/max17042_battery.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/drivers/power/supply/max17042_battery.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/drivers/power/supply/pm8916_bms_vm.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/drivers/power/supply/pm8916_bms_vm.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/drivers/power/supply/pm8916_lbc.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/drivers/power/supply/pm8916_lbc.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/drivers/power/supply/rt5033_battery.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/drivers/power/supply/rt5033_battery.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/drivers/power/supply/smb1360.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/drivers/power/supply/smb1360.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/drivers/soc/qcom/apr.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/drivers/soc/qcom/apr.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/drivers/soc/qcom/mdt_loader.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/drivers/soc/qcom/mdt_loader.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/drivers/soc/qcom/pdr_interface.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/drivers/soc/qcom/pdr_interface.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/drivers/soc/qcom/qcom_memshare.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/drivers/soc/qcom/qcom_memshare.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/drivers/soc/qcom/wcnss_ctrl.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/drivers/soc/qcom/wcnss_ctrl.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/drivers/staging/r8188eu/r8188eu.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/drivers/staging/r8188eu/r8188eu.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/drivers/staging/rtl8712/r8712u.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/drivers/staging/rtl8712/r8712u.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/drivers/usb/class/cdc-wdm.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/drivers/usb/class/cdc-wdm.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/drivers/usb/class/usblp.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/drivers/usb/class/usblp.ko
+mkdir /usr/lib/modules/5.15.0-handsomekernel+/kernel/drivers/usb/gadget/function
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/net/bluetooth/hidp/hidp.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/net/bluetooth/hidp/hidp.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/net/ipv4/netfilter/ip_tables.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/net/ipv4/netfilter/ip_tables.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/net/ipv4/netfilter/ipt_REJECT.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/net/ipv4/netfilter/ipt_REJECT.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/net/ipv4/netfilter/iptable_filter.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/net/ipv4/netfilter/iptable_filter.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/net/ipv4/netfilter/iptable_mangle.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/net/ipv4/netfilter/iptable_mangle.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/net/ipv4/netfilter/iptable_nat.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/net/ipv4/netfilter/iptable_nat.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/net/ipv4/netfilter/nf_defrag_ipv4.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/net/ipv4/netfilter/nf_defrag_ipv4.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/net/ipv4/netfilter/nf_dup_ipv4.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/net/ipv4/netfilter/nf_dup_ipv4.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/net/ipv4/netfilter/nf_reject_ipv4.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/net/ipv4/netfilter/nf_reject_ipv4.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/net/ipv4/netfilter/nf_socket_ipv4.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/net/ipv4/netfilter/nf_socket_ipv4.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/net/ipv4/netfilter/nf_tproxy_ipv4.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/net/ipv4/netfilter/nf_tproxy_ipv4.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/net/ipv4/netfilter/nft_reject_ipv4.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/net/ipv4/netfilter/nft_reject_ipv4.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/net/ipv6/netfilter/ip6_tables.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/net/ipv6/netfilter/ip6_tables.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/net/ipv6/netfilter/ip6t_REJECT.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/net/ipv6/netfilter/ip6t_REJECT.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/net/ipv6/netfilter/ip6t_ah.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/net/ipv6/netfilter/ip6t_ah.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/net/ipv6/netfilter/ip6t_eui64.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/net/ipv6/netfilter/ip6t_eui64.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/net/ipv6/netfilter/ip6t_frag.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/net/ipv6/netfilter/ip6t_frag.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/net/ipv6/netfilter/ip6t_hbh.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/net/ipv6/netfilter/ip6t_hbh.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/net/ipv6/netfilter/ip6t_ipv6header.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/net/ipv6/netfilter/ip6t_ipv6header.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/net/ipv6/netfilter/ip6t_mh.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/net/ipv6/netfilter/ip6t_mh.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/net/ipv6/netfilter/ip6t_rpfilter.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/net/ipv6/netfilter/ip6t_rpfilter.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/net/ipv6/netfilter/ip6t_rt.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/net/ipv6/netfilter/ip6t_rt.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/net/ipv6/netfilter/ip6table_filter.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/net/ipv6/netfilter/ip6table_filter.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/net/ipv6/netfilter/ip6table_mangle.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/net/ipv6/netfilter/ip6table_mangle.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/net/ipv6/netfilter/ip6table_nat.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/net/ipv6/netfilter/ip6table_nat.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/net/ipv6/netfilter/ip6table_raw.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/net/ipv6/netfilter/ip6table_raw.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/net/ipv6/netfilter/ip6table_security.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/net/ipv6/netfilter/ip6table_security.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/net/ipv6/netfilter/nf_defrag_ipv6.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/net/ipv6/netfilter/nf_defrag_ipv6.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/net/ipv6/netfilter/nf_dup_ipv6.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/net/ipv6/netfilter/nf_dup_ipv6.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/net/ipv6/netfilter/nf_reject_ipv6.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/net/ipv6/netfilter/nf_reject_ipv6.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/net/ipv6/netfilter/nf_socket_ipv6.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/net/ipv6/netfilter/nf_socket_ipv6.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/net/ipv6/netfilter/nf_tproxy_ipv6.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/net/ipv6/netfilter/nf_tproxy_ipv6.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/net/ipv6/netfilter/nft_reject_ipv6.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/net/ipv6/netfilter/nft_reject_ipv6.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/net/netfilter/ipvs/ip_vs.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/net/netfilter/ipvs/ip_vs.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/net/netfilter/ipvs/ip_vs_rr.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/net/netfilter/ipvs/ip_vs_rr.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/net/nfc/nci/nci.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/net/nfc/nci/nci.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/sound/soc/codecs/snd-soc-aw8738.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/sound/soc/codecs/snd-soc-aw8738.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/sound/soc/codecs/snd-soc-max98357a.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/sound/soc/codecs/snd-soc-max98357a.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/sound/soc/codecs/snd-soc-msm8916-analog.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/sound/soc/codecs/snd-soc-msm8916-analog.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/sound/soc/codecs/snd-soc-msm8916-digital.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/sound/soc/codecs/snd-soc-msm8916-digital.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/sound/soc/codecs/snd-soc-simple-amplifier.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/sound/soc/codecs/snd-soc-simple-amplifier.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/sound/soc/codecs/snd-soc-tfa989x.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/sound/soc/codecs/snd-soc-tfa989x.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/drivers/gpu/drm/gud/gud.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/drivers/gpu/drm/gud/gud.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/drivers/gpu/drm/vkms/vkms.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/drivers/gpu/drm/vkms/vkms.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/drivers/media/common/videobuf2/videobuf2-common.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/drivers/media/common/videobuf2/videobuf2-common.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/drivers/media/common/videobuf2/videobuf2-dma-contig.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/drivers/media/common/videobuf2/videobuf2-dma-contig.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/drivers/media/common/videobuf2/videobuf2-dma-sg.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/drivers/media/common/videobuf2/videobuf2-dma-sg.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/drivers/media/common/videobuf2/videobuf2-memops.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/drivers/media/common/videobuf2/videobuf2-memops.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/drivers/media/common/videobuf2/videobuf2-v4l2.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/drivers/media/common/videobuf2/videobuf2-v4l2.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/drivers/media/common/videobuf2/videobuf2-vmalloc.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/drivers/media/common/videobuf2/videobuf2-vmalloc.ko
+mkdir /usr/lib/modules/5.15.0-handsomekernel+/kernel/drivers/media/platform/qcom/camss
+mkdir /usr/lib/modules/5.15.0-handsomekernel+/kernel/drivers/media/platform/qcom/venus
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/drivers/media/usb/uvc/uvcvideo.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/drivers/media/usb/uvc/uvcvideo.ko
+mkdir /usr/lib/modules/5.15.0-handsomekernel+/kernel/drivers/net/ethernet/qualcomm/rmnet
+mkdir /usr/lib/modules/5.15.0-handsomekernel+/kernel/drivers/net/wireless/ath/wcn36xx
+mkdir /usr/lib/modules/5.15.0-handsomekernel+/kernel/drivers/net/wireless/mediatek/mt76
+mkdir /usr/lib/modules/5.15.0-handsomekernel+/kernel/drivers/net/wireless/mediatek/mt7601u
+mkdir /usr/lib/modules/5.15.0-handsomekernel+/kernel/drivers/net/wireless/realtek/rtl818x
+mkdir /usr/lib/modules/5.15.0-handsomekernel+/kernel/drivers/net/wireless/realtek/rtl8xxxu
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/drivers/usb/gadget/function/usb_f_uvc.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/drivers/usb/gadget/function/usb_f_uvc.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/drivers/media/platform/qcom/camss/qcom-camss.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/drivers/media/platform/qcom/camss/qcom-camss.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/drivers/media/platform/qcom/venus/venus-core.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/drivers/media/platform/qcom/venus/venus-core.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/drivers/media/platform/qcom/venus/venus-dec.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/drivers/media/platform/qcom/venus/venus-dec.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/drivers/media/platform/qcom/venus/venus-enc.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/drivers/media/platform/qcom/venus/venus-enc.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/drivers/net/ethernet/qualcomm/rmnet/rmnet.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/drivers/net/ethernet/qualcomm/rmnet/rmnet.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/drivers/net/wireless/ath/wcn36xx/wcn36xx.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/drivers/net/wireless/ath/wcn36xx/wcn36xx.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/drivers/net/wireless/mediatek/mt76/mt76-connac-lib.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/drivers/net/wireless/mediatek/mt76/mt76-connac-lib.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/drivers/net/wireless/mediatek/mt76/mt76-usb.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/drivers/net/wireless/mediatek/mt76/mt76-usb.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/drivers/net/wireless/mediatek/mt76/mt76.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/drivers/net/wireless/mediatek/mt76/mt76.ko
+mkdir /usr/lib/modules/5.15.0-handsomekernel+/kernel/drivers/net/wireless/mediatek/mt76/mt7615
+mkdir /usr/lib/modules/5.15.0-handsomekernel+/kernel/drivers/net/wireless/mediatek/mt76/mt76x0
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/drivers/net/wireless/mediatek/mt76/mt76x02-lib.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/drivers/net/wireless/mediatek/mt76/mt76x02-lib.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/drivers/net/wireless/mediatek/mt76/mt76x02-usb.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/drivers/net/wireless/mediatek/mt76/mt76x02-usb.ko
+mkdir /usr/lib/modules/5.15.0-handsomekernel+/kernel/drivers/net/wireless/mediatek/mt76/mt76x2
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/drivers/net/wireless/mediatek/mt7601u/mt7601u.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/drivers/net/wireless/mediatek/mt7601u/mt7601u.ko
+mkdir /usr/lib/modules/5.15.0-handsomekernel+/kernel/drivers/net/wireless/realtek/rtl818x/rtl8187
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/drivers/net/wireless/realtek/rtl8xxxu/rtl8xxxu.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/drivers/net/wireless/realtek/rtl8xxxu/rtl8xxxu.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/drivers/net/wireless/mediatek/mt76/mt7615/mt7615-common.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/drivers/net/wireless/mediatek/mt76/mt7615/mt7615-common.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/drivers/net/wireless/mediatek/mt76/mt7615/mt7663-usb-sdio-common.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/drivers/net/wireless/mediatek/mt76/mt7615/mt7663-usb-sdio-common.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/drivers/net/wireless/mediatek/mt76/mt7615/mt7663u.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/drivers/net/wireless/mediatek/mt76/mt7615/mt7663u.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/drivers/net/wireless/mediatek/mt76/mt76x0/mt76x0-common.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/drivers/net/wireless/mediatek/mt76/mt76x0/mt76x0-common.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/drivers/net/wireless/mediatek/mt76/mt76x0/mt76x0u.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/drivers/net/wireless/mediatek/mt76/mt76x0/mt76x0u.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/drivers/net/wireless/mediatek/mt76/mt76x2/mt76x2-common.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/drivers/net/wireless/mediatek/mt76/mt76x2/mt76x2-common.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/drivers/net/wireless/mediatek/mt76/mt76x2/mt76x2u.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/drivers/net/wireless/mediatek/mt76/mt76x2/mt76x2u.ko
+write firmware-downloads/official-modules/modules/5.15.0-handsomekernel+/kernel/drivers/net/wireless/realtek/rtl818x/rtl8187/rtl8187.ko /usr/lib/modules/5.15.0-handsomekernel+/kernel/drivers/net/wireless/realtek/rtl818x/rtl8187/rtl8187.ko
+rm /etc/systemd/system/multi-user.target.wants/dnsmasq.service
+rm /etc/ssh/ssh_host_rsa_key
+rm /etc/ssh/ssh_host_rsa_key.pub
+rm /etc/ssh/ssh_host_ecdsa_key
+rm /etc/ssh/ssh_host_ecdsa_key.pub
+rm /etc/ssh/ssh_host_ed25519_key
+rm /etc/ssh/ssh_host_ed25519_key.pub
+write firmware-downloads/assembled/ssh_host_ed25519_key /etc/ssh/ssh_host_ed25519_key
+write firmware-downloads/assembled/ssh_host_ed25519_key.pub /etc/ssh/ssh_host_ed25519_key.pub
+set_inode_field /etc/ssh/ssh_host_ed25519_key mode 0100600

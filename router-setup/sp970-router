@@ -1,0 +1,42 @@
+#!/bin/sh
+set -eu
+IPT=iptables-legacy
+stop_rules() {
+ for dev in wlan0 usb0; do
+  $IPT -t mangle -D PREROUTING -i "$dev" -j SP970_PROXY 2>/dev/null || true
+  $IPT -t nat -D PREROUTING -i "$dev" -j SP970_DNS 2>/dev/null || true
+ done
+ $IPT -t nat -D POSTROUTING -s 192.168.3.0/24 -o wlan0 -j MASQUERADE 2>/dev/null || true
+ for table_chain in 'mangle SP970_PROXY' 'nat SP970_DNS'; do
+  set -- $table_chain
+  $IPT -t "$1" -F "$2" 2>/dev/null || true
+  $IPT -t "$1" -X "$2" 2>/dev/null || true
+ done
+ ip rule del priority 1071 fwmark 0x71/0xff lookup 171 2>/dev/null || true
+ ip route flush table 171 2>/dev/null || true
+}
+stop_rules
+[ "${1:-start}" != stop ] || exit 0
+modprobe xt_TPROXY
+ip route add local 0.0.0.0/0 dev lo table 171
+ip rule add priority 1071 fwmark 0x71/0xff lookup 171
+$IPT -t mangle -N SP970_PROXY
+$IPT -t mangle -A SP970_PROXY -p tcp -j RETURN
+$IPT -t nat -N SP970_DNS
+for proto in tcp udp; do
+ $IPT -t mangle -A SP970_PROXY -p "$proto" --dport 53 -j RETURN
+ $IPT -t nat -A SP970_DNS -p "$proto" --dport 53 -j REDIRECT --to-ports 5353
+ done
+for net in 0.0.0.0/8 10.0.0.0/8 100.64.0.0/10 127.0.0.0/8 169.254.0.0/16 172.16.0.0/12 192.168.0.0/16 224.0.0.0/4 240.0.0.0/4; do
+ $IPT -t mangle -A SP970_PROXY -d "$net" -j RETURN
+ $IPT -t nat -A SP970_DNS -d "$net" -j RETURN
+ done
+$IPT -t nat -A SP970_DNS -p tcp -j REDIRECT --to-ports 12346
+for proto in udp; do
+ $IPT -t mangle -A SP970_PROXY -p "$proto" -j TPROXY --on-port 12345 --tproxy-mark 0x71/0xff
+ done
+for dev in wlan0 usb0; do
+ $IPT -t mangle -A PREROUTING -i "$dev" -j SP970_PROXY
+ $IPT -t nat -A PREROUTING -i "$dev" -j SP970_DNS
+ done
+$IPT -t nat -A POSTROUTING -s 192.168.3.0/24 -o wlan0 -j MASQUERADE

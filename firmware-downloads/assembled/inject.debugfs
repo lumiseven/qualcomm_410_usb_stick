@@ -1,0 +1,44 @@
+write firmware-downloads/original-firmware/mba.mbn /usr/lib/firmware/mba.mbn
+write firmware-downloads/original-firmware/modem.b00 /usr/lib/firmware/modem.b00
+write firmware-downloads/original-firmware/modem.b01 /usr/lib/firmware/modem.b01
+write firmware-downloads/original-firmware/modem.b02 /usr/lib/firmware/modem.b02
+write firmware-downloads/original-firmware/modem.b03 /usr/lib/firmware/modem.b03
+write firmware-downloads/original-firmware/modem.b04 /usr/lib/firmware/modem.b04
+write firmware-downloads/original-firmware/modem.b05 /usr/lib/firmware/modem.b05
+write firmware-downloads/original-firmware/modem.b06 /usr/lib/firmware/modem.b06
+write firmware-downloads/original-firmware/modem.b07 /usr/lib/firmware/modem.b07
+write firmware-downloads/original-firmware/modem.b10 /usr/lib/firmware/modem.b10
+write firmware-downloads/original-firmware/modem.b12 /usr/lib/firmware/modem.b12
+write firmware-downloads/original-firmware/modem.b13 /usr/lib/firmware/modem.b13
+write firmware-downloads/original-firmware/modem.b15 /usr/lib/firmware/modem.b15
+write firmware-downloads/original-firmware/modem.b16 /usr/lib/firmware/modem.b16
+write firmware-downloads/original-firmware/modem.b17 /usr/lib/firmware/modem.b17
+write firmware-downloads/original-firmware/modem.b18 /usr/lib/firmware/modem.b18
+write firmware-downloads/original-firmware/modem.b19 /usr/lib/firmware/modem.b19
+write firmware-downloads/original-firmware/modem.b20 /usr/lib/firmware/modem.b20
+write firmware-downloads/original-firmware/modem.b21 /usr/lib/firmware/modem.b21
+write firmware-downloads/original-firmware/modem.b24 /usr/lib/firmware/modem.b24
+write firmware-downloads/original-firmware/modem.b25 /usr/lib/firmware/modem.b25
+write firmware-downloads/original-firmware/modem.b26 /usr/lib/firmware/modem.b26
+write firmware-downloads/original-firmware/modem.b27 /usr/lib/firmware/modem.b27
+write firmware-downloads/original-firmware/modem.mdt /usr/lib/firmware/modem.mdt
+write firmware-downloads/original-firmware/wcnss.b00 /usr/lib/firmware/wcnss.b00
+write firmware-downloads/original-firmware/wcnss.b01 /usr/lib/firmware/wcnss.b01
+write firmware-downloads/original-firmware/wcnss.b02 /usr/lib/firmware/wcnss.b02
+write firmware-downloads/original-firmware/wcnss.b04 /usr/lib/firmware/wcnss.b04
+write firmware-downloads/original-firmware/wcnss.b06 /usr/lib/firmware/wcnss.b06
+write firmware-downloads/original-firmware/wcnss.b09 /usr/lib/firmware/wcnss.b09
+write firmware-downloads/original-firmware/wcnss.b10 /usr/lib/firmware/wcnss.b10
+write firmware-downloads/original-firmware/wcnss.b11 /usr/lib/firmware/wcnss.b11
+write firmware-downloads/original-firmware/wcnss.mdt /usr/lib/firmware/wcnss.mdt
+mkdir /usr/lib/firmware/wlan
+mkdir /usr/lib/firmware/wlan/prima
+write firmware-downloads/device-original/WCNSS_qcom_wlan_nv.bin /usr/lib/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin
+mkdir /home/user/.ssh
+set_inode_field /home/user/.ssh mode 040700
+set_inode_field /home/user/.ssh uid 1000
+set_inode_field /home/user/.ssh gid 1000
+write firmware-downloads/assembled/sp970_ed25519.pub /home/user/.ssh/authorized_keys
+set_inode_field /home/user/.ssh/authorized_keys mode 0100600
+set_inode_field /home/user/.ssh/authorized_keys uid 1000
+set_inode_field /home/user/.ssh/authorized_keys gid 1000

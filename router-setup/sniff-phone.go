@@ -1,0 +1,3 @@
+package main
+import("syscall";"time";"fmt";"net";"encoding/binary")
+func main(){fd,e:=syscall.Socket(syscall.AF_PACKET,syscall.SOCK_RAW,0x0300);if e!=nil{panic(e)};defer syscall.Close(fd);syscall.SetsockoptTimeval(fd,syscall.SOL_SOCKET,syscall.SO_RCVTIMEO,&syscall.Timeval{Sec:1});b:=make([]byte,65536);end:=time.Now().Add(25*time.Second);for time.Now().Before(end){n,a,e:=syscall.Recvfrom(fd,b,0);if e!=nil||n<54||b[12]!=8||b[13]!=0||(b[23]!=6&&b[23]!=17){continue};src,dst:=net.IP(b[26:30]).String(),net.IP(b[30:34]).String();if src!="192.168.3.130"&&dst!="192.168.3.130"{continue};h:=14+int(b[14]&15)*4;if n<h+14{continue};fmt.Printf("proto=%d macdst=%x ",b[23],b[:6]);fmt.Println(a,src,dst,binary.BigEndian.Uint16(b[h:h+2]),binary.BigEndian.Uint16(b[h+2:h+4]),b[h+13])}}

@@ -1,0 +1,33 @@
+# Downloaded reference repositories and local packages
+/openstick-upstream/
+/sp970-debian/
+*.deb
+
+# Firmware, original partitions, calibration data, images and SSH identities
+# stay local. Keep the inputs that describe how the image was assembled.
+/firmware-downloads/*
+!/firmware-downloads/unsparse.py
+!/firmware-downloads/bookworm-sources.list
+!/firmware-downloads/lk2nd-sha256sums.txt
+!/firmware-downloads/assembled/
+/firmware-downloads/assembled/*
+!/firmware-downloads/assembled/inject.debugfs
+!/firmware-downloads/assembled/management.debugfs
+!/firmware-downloads/assembled/modules.debugfs
+!/firmware-downloads/assembled/fstab
+!/firmware-downloads/assembled/sp970-usb.sh
+!/firmware-downloads/assembled/usb-gadget.service
+!/firmware-downloads/assembled/ssh-sp970.sh
+!/firmware-downloads/assembled/SHA256SUMS
+
+# Live proxy credentials, package extracts and capture binaries stay local.
+/router-setup/*
+!/router-setup/90-sp970-router.conf
+!/router-setup/sp970-router
+!/router-setup/sp970-router.service
+!/router-setup/*.go
+
+*.log
+*.pcap
+*.pcapng
+__pycache__/

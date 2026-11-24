@@ -1,0 +1,10 @@
+[Unit]
+Description=SP970 USB NCM management interface
+After=sys-kernel-config.mount systemd-udev-trigger.service
+Requires=sys-kernel-config.mount
+[Service]
+Type=oneshot
+ExecStart=/usr/sbin/sp970-usb.sh
+RemainAfterExit=yes
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,7 @@
+write firmware-downloads/assembled/sp970-usb.sh /usr/sbin/sp970-usb.sh
+set_inode_field /usr/sbin/sp970-usb.sh mode 0100755
+rm /etc/systemd/system/usb-gadget.service
+write firmware-downloads/assembled/usb-gadget.service /etc/systemd/system/usb-gadget.service
+symlink /etc/systemd/system/multi-user.target.wants/usb-gadget.service /etc/systemd/system/usb-gadget.service
+rm /etc/fstab
+write firmware-downloads/assembled/fstab /etc/fstab

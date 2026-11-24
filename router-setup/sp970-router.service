@@ -1,0 +1,11 @@
+[Unit]
+Description=SP970 IPv4 transparent proxy rules
+Wants=network-online.target sing-box.service
+After=network-online.target sing-box.service
+[Service]
+Type=oneshot
+ExecStart=/usr/local/sbin/sp970-router start
+ExecStop=/usr/local/sbin/sp970-router stop
+RemainAfterExit=yes
+[Install]
+WantedBy=multi-user.target
